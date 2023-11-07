@@ -15,3 +15,19 @@ Este projeto **obrigatoriamente** deverá conter um arquivo `readme.md` e os arq
 
 Desejamos a todos boa sorte!
 
+----------------------------------------------------------------------------------------------------
+
+# Projeto HTML & CSS
+  - Projeto Web feito para estudo;
+  - Design feito através do Figma;
+
+### Ferramentas usadas:
+  - Flexbox;
+  - Grid;
+
+### Responsividade:
+  - Feito somente para telas web;
+
+### Clique no link para visualizar:
+- Link do repositório no GitHub: https://lnkd.in/de-Ah4bP
+- Acesse GitHub pages: https://lnkd.in/dY7nu3VB
