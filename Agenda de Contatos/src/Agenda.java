@@ -7,7 +7,7 @@ public class Agenda {
     public Contato[] contatos = new Contato[1000];
     public Agenda () {
         this.ids = 0;
-        System.out.println("Agenda criada com sucesso!");
+        this.consultarAgenda();
     }
 
     public void raiseIds() {
@@ -92,19 +92,19 @@ public class Agenda {
     }
 
 
-    public void excluirContato(int id) {
-        if (id > 0 && id <= this.ids) {
-            this.contatos[id-1] = null;
-        } else {
-            System.out.println("Id inválido! Não foi possível excluir");
-        }
-    }
+//    public void excluirContato(int id) {
+//        if (id > 0 && id <= this.ids) {
+//            this.contatos[id-1] = null;
+//        } else {
+//            System.out.println("Id inválido! Não foi possível excluir");
+//        }
+//    }
 
     public void consultarAgenda() {
-        System.out.println("CONSULTANDO SUA AGENDA:");
+        System.out.println("BEM-VINDO(A) À SUA AGENDA:");
         String entrada;
         while (true) {
-            System.out.println("Escolha sua consulta:\n   - 1 para listar seus contatos\n   - 2 para adicionar contato\n   - 3 para editar contato\n   - 4 para excluir contato\n   - qualquer outra tecla para sair");
+            System.out.println("Escolha sua consulta:\n   - 1 para listar seus contatos\n   - 2 para adicionar contato\n   - 3 para editar contato\n   - qualquer outra tecla para sair");
             entrada = input.nextLine().strip();
             if (!entrada.equals("1") && !entrada.equals("2") && !entrada.equals("3") && !entrada.equals("4")) {
                 break;
@@ -117,11 +117,11 @@ public class Agenda {
                         int id = input.nextInt();
                         this.editarContato(id);
                     }
-                    case "4" -> {
-                        System.out.println("Digite o id do contato que deseja excluir: ");
-                        int id = input.nextInt();
-                        this.excluirContato(id);
-                    }
+//                    case "4" -> {
+//                        System.out.println("Digite o id do contato que deseja excluir: ");
+//                        int id = input.nextInt();
+//                        this.excluirContato(id);
+//                    }
                 }
             }
         }
