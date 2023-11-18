@@ -60,7 +60,8 @@ java CalculandoMedia
 Licença
 Este projeto é de código aberto sob a licença MIT.
 
-![licença](https://img.shields.io/github/license/roggercarvalho/minicurso-git-e-github)
+![GitHub License](https://img.shields.io/github/license/roggercarvalho/minicurso-git-e-github?link=https%3A%2F%2Fgithub.com%2Froggercarvalho%2Fminicurso-git-e-github%2Fblob%2Fmain%2FLICENSE)
+
 
 Esta estrutura abrange todas as informações que você mencionou anteriormente. 
 Se precisar de mais alguma coisa ou tiver outras dúvidas, estou à disposição!
